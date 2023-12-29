@@ -1,0 +1,49 @@
+[2023-12-28 19:58:41] SQLSTATE[HY000] [2002] Connection refused in /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Database.php on line 22. Code: 2002
+#0 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Database.php(22): PDO->__construct()
+#1 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Model.php(63): Database::getConnection()
+#2 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Http/Controllers/UserController.php(20): Model::create()
+#3 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Core/Core.php(39): UserController->store()
+#4 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/index.php(19): Core::run()
+#5 {main}
+[2023-12-28 20:13:09] SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Model.php on line 87. Code: 0
+#0 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Model.php(87): PDOStatement->execute()
+#1 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Http/Controllers/UserController.php(42): Model::update()
+#2 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Core/Core.php(39): UserController->update()
+#3 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/index.php(19): Core::run()
+#4 {main}
+[2023-12-28 20:15:56] SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Model.php on line 87. Code: 0
+#0 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Model.php(87): PDOStatement->execute()
+#1 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Http/Controllers/UserController.php(42): Model::update()
+#2 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Core/Core.php(39): UserController->update()
+#3 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/index.php(19): Core::run()
+#4 {main}
+[2023-12-28 20:16:15] SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Model.php on line 87. Code: 0
+#0 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Model.php(87): PDOStatement->execute()
+#1 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Http/Controllers/UserController.php(42): Model::update()
+#2 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Core/Core.php(39): UserController->update()
+#3 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/index.php(19): Core::run()
+#4 {main}
+[2023-12-28 20:17:17] SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Model.php on line 90. Code: 0
+#0 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Model.php(90): PDOStatement->execute()
+#1 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Http/Controllers/UserController.php(42): Model::update()
+#2 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Core/Core.php(39): UserController->update()
+#3 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/index.php(19): Core::run()
+#4 {main}
+[2023-12-28 20:20:06] SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Model.php on line 91. Code: 0
+#0 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Model.php(91): PDOStatement->execute()
+#1 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Http/Controllers/UserController.php(42): Model::update()
+#2 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Core/Core.php(39): UserController->update()
+#3 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/index.php(19): Core::run()
+#4 {main}
+[2023-12-28 20:21:43] SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Model.php on line 93. Code: 0
+#0 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Model.php(93): PDOStatement->execute()
+#1 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Http/Controllers/UserController.php(42): Model::update()
+#2 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Core/Core.php(39): UserController->update()
+#3 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/index.php(19): Core::run()
+#4 {main}
+[2023-12-28 20:21:53] SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Model.php on line 93. Code: 0
+#0 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Model.php(93): PDOStatement->execute()
+#1 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Http/Controllers/UserController.php(42): Model::update()
+#2 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/App/Models/Core/Core.php(39): UserController->update()
+#3 /home/anton/Documents/PHPProjects/simpleCRUD/SimpleMVCPHP/index.php(19): Core::run()
+#4 {main}
